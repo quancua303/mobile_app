@@ -1,0 +1,34 @@
+﻿.slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index:10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
